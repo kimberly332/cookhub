@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: block !important;
+    justify-content: center;
+    place-items: center;
+    min-width: 320px;
+    --tw-gradient-from: #ecfdf5 var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(236 253 245 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+#root {
+    padding: 0 !important;
+}
+
+.banner {
+    padding: 0;
+    margin-bottom: 2.5em;
+}
+
+.banner-content {
+    max-width: 100%;
+    padding: 5em;
+    background-color: rgb(6 78 59 / var(--tw-text-opacity, 1));
+}
+
+h1.welcome-message {
+    color: #ffffff !important;
+    /* text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) */
+}
+
+.featured-recipe-card {
+  background-color: #ffffff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+select, textarea {
+    background-color: #ffffff;
+}
