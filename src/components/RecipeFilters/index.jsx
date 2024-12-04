@@ -11,7 +11,7 @@ const RecipeFilters = ({ onFilterChange }) => {
 
   const difficulties = ['All', 'Easy', 'Intermediate', 'Advanced'];
   const times = ['All', '< 30 mins', '30-60 mins', '> 60 mins'];
-  const categories = ['All', 'Italian', 'Asian', 'Vegetarian', 'Desserts', 'Breakfast'];
+  const categories = ['All', 'Pizza', 'Sushi', 'Indian', 'Chinese', 'Thai', 'Wings', 'Korean', 'Soup', 'BBQ', 'Healthy', 'Greek', 'Mexican', 'Italian', 'Japanese', 'Sandwich', 'Vegan', 'Halal', 'Caribbean', 'Asian', 'Seafood', 'Salads', 'Bakery', 'Desserts', 'Vegetarian', 'Breakfast'];
 
   const handleFilterChange = (type, value) => {
     const newFilters = { ...filters, [type]: value.toLowerCase() };
